@@ -1,0 +1,252 @@
+/*Portfolio Template Styles*/
+
+/*Global Styles*/
+body, html {
+  margin: 0;
+  /*Because bodies naturally come with a margin.*/
+  font-family: 'Poiret One', cursive;
+}
+
+ul {
+  list-style-type: none;
+  /*Removes bullet points*/
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  /*Makes link appear as chosen colors not the blue and purple*/
+  text-decoration: none;
+  /*Removes underline from link*/
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/*Header Styles*/
+header {
+  height: 100px;
+  /*That is about the standard height for a header*/
+  width: 100%;
+  background-color: #000033;
+}
+
+.logo {
+  width: 400px;
+  height: 100%;
+  float: left;
+
+/*Float Left allowed the logo and list to be on the same line*/
+}
+
+.logo h1 {
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
+/*When only 2, first is top and bottom, second is right and left.*/
+}
+
+.menu {
+height: 100%;
+width 400px;
+float: right;
+color: white;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+  /*Singular input of data allows for all around, 2 does top and bottom first then if 2 inputs gives top and bottom first the left and right.*/
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+/*Banner Styles*/
+
+#banner {
+  height: 300px;
+  width: 100%;
+  background: url("../img/snow-landscape-nature-sky.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  color: white;
+  text-align:center;
+  padding-top: 90px;
+  font-size: 3em;
+}
+
+/*Skills Stylings*/
+
+#skills {
+  height: 323px;
+  width: 100%;
+  background-color: #000033;
+  padding-top: 45px;
+}
+
+.skills-container{
+  height: 73%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skills article {
+  width: 25%;
+  height: 100%;
+  background-color: #22664f;
+  float: left;
+  margin: 0px 30px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+#skills article h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#about {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #c00044;
+  display: inline-block;
+}
+
+#about h1 {
+  text-alignment: justify;
+  padding-top: 20px;
+}
+
+#about p {
+  padding: 0px 15px;
+  text-align: justify;
+}
+
+.img-box {
+  height: 400px;
+  width: 25%;
+  float: left;
+  background-color: #febd6f;
+}
+
+.img-container {
+  height: 200px;
+  width: 205px;
+  background-color: #22664f;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+#about img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.about-info {
+height:350px;
+width: 75%;
+float: left;
+background-color: #dd004c;
+}
+
+.about-content {
+  height: 300px;
+  width: 800px;
+  border: 2px dashed #333;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: yellow;
+}
+
+#contact {
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.form-box {
+  height: 300px;
+  width: 500px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+  margin: 0 auto;
+}
+
+#contact input {
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea {
+  height: 125px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact button {
+  height: 40px;
+  width: 125px;
+  background-color: #99aacb;
+  border: 2px solid #333;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#contact button: hover {
+background-color: orange;
+border: 2px solid black;
+color: black;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #000033;
+  clear: both;
+}
+
+.copyright p {
+  margin: 0;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.sm-icons {
+  width: 180px;
+  height: 50px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i {
+  font-size: 2em;
+  color: #333;
+  padding: 10px;
+}
